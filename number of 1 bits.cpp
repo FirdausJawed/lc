@@ -53,10 +53,15 @@ double eps = 1e-12;
 #define sz(x) ((ll)(x).size())
  
 
-void solve()
-{ 
- 
- 
+int solve()
+{
+    int cnt = 0;
+    while (n)
+    {
+        cnt++;
+        n = n & (n - 1);
+    }
+    return cnt;
 }
 int main()
 {
