@@ -55,7 +55,8 @@ double eps = 1e-12;
 
 int solve()
 {
-    int cnt = 0;
+    int cnt = 0,n;
+    cin >> n;
     while (n)
     {
         cnt++;
